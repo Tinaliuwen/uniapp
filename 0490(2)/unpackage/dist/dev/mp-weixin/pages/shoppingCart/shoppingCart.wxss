@@ -1,0 +1,47 @@
+
+.consume-img.data-v-075fedf4{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 240rpx;
+}
+.img.data-v-075fedf4{
+	width: 522rpx;
+	height: 350rpx;
+}
+.text.data-v-075fedf4{
+	color: #333;
+	font-weight: bold;
+}
+.shopping.data-v-075fedf4{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 105rpx;
+}
+.shopping-text.data-v-075fedf4{
+	width: 240rpx;
+	height: 76rpx;
+	line-height: 76rpx;
+	text-align: center;
+	color: #fff;
+	border-radius:38rpx;
+	background-color: #ff594d;
+}
+

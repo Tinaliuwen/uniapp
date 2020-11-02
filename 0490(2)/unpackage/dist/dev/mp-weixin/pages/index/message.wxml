@@ -1,0 +1,1 @@
+<view class="container"><view class="top"><image class="image" src="{{image}}" mode="widthFix"></image><view class="right"><view class="title">{{title}}</view><view class="bum"><view class="time">{{createtime}}</view></view></view></view><view class="content"><view><rich-text nodes="{{content}}"></rich-text></view></view></view>

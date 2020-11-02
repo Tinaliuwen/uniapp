@@ -1,0 +1,43 @@
+/* 通用样式 */
+
+/* flex布局 */
+
+.u-f,
+.u-f-ac,
+.u-f-ajc,
+.u-f-jsb {
+  display: flex;
+}
+
+.u-f-ac,
+.u-f-ajc,
+.u-f-jsb {
+  align-items: center;
+}
+
+.u-f-ajc {
+  justify-content: center;
+}
+
+.u-f-jsb {
+  justify-content: space-between;
+}
+
+.u-f-fw {
+  flex-wrap: wrap;
+}
+
+.u-f1 {
+  flex: 1;
+}
+
+.u-f-column {
+  flex-direction: column;
+}
+
+.u-line-clamp{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

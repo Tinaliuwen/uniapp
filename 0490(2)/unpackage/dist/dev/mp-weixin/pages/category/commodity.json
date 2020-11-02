@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "uni-countdown": "/components/uni-count",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

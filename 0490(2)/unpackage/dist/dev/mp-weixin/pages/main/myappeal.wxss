@@ -1,0 +1,12 @@
+.text.data-v-7d1bf1a8 {
+  width: 96%;
+  height: 400rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+.btn.data-v-7d1bf1a8 {
+  margin: 80rpx;
+  background: #ff594d;
+  border-radius: 50rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><rich-text nodes="{{enterprise_content}}"></rich-text></view></view>

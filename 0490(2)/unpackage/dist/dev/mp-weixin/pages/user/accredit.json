@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "授权书",
+  "usingComponents": {
+    "picker-nav": "/components/uni-picker"
+  }
+}

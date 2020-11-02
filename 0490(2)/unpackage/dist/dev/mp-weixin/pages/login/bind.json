@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "绑定手机号",
+  "usingComponents": {
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down"
+  }
+}

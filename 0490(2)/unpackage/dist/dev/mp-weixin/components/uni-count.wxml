@@ -1,0 +1,1 @@
+<view class="uni-countdown" style="{{'color:'+(fontColor)+';'}}"><block wx:if="{{type>3}}"><block>{{d+"天"}}</block></block><block wx:if="{{type>2}}"><block>{{h+"时"}}</block></block><block wx:if="{{type>1}}"><block>{{m+"分"}}</block></block><block wx:if="{{type>0}}"><block>{{s+"秒"}}</block></block><block wx:if="{{type==0}}"><block></block></block></view>

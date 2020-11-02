@@ -1,0 +1,1 @@
+<view class="container"><image class="image" src="{{service_code_img}}" mode="widthFix"></image><view class="content"><rich-text nodes="{{service_content}}"></rich-text></view></view>

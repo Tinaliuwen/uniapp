@@ -1,0 +1,43 @@
+
+.footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 1000;
+	position: fixed;
+}
+.footer_item{
+	float: left;
+	text-align: center;
+	z-index: 1000;
+	position: relative;
+}
+.footer_item image{
+	z-index: 950;
+	position: relative;
+}
+.footer_item .big{
+	padding: 20rpx;
+	/* box-shadow: 0 -10upx 20upx #666666; */
+}
+.item-text{
+	line-height : 40rpx;
+	margin-top : -10rpx;
+}
+.big-text{
+	z-index: 1000;
+	position: relative;
+	margin-top : -30rpx;
+}
+.items{
+	z-index: 200;
+	position: relative;
+}
+.big-back{
+	z-index: 100;
+	margin: 0 auto 10rpx;
+	position: relative;
+	border-top: 4rpx solid #666666;
+	/* box-shadow: 0 0 20upx #666666; */
+}
+

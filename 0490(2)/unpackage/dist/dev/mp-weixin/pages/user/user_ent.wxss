@@ -1,0 +1,105 @@
+.header.data-v-2d7d51dc {
+  width: 100%;
+  background: #D64431;
+  color: #ffffff;
+  position: relative;
+  font-size: 26rpx;
+  padding: 46rpx;
+}
+.header .text.data-v-2d7d51dc {
+  font-size: 38rpx;
+}
+.header .hea_vie.data-v-2d7d51dc {
+  margin-top: 18rpx;
+}
+.header .img.data-v-2d7d51dc {
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 20rpx;
+}
+.wz_dai.data-v-2d7d51dc {
+  right: 30rpx;
+  bottom: 20rpx;
+  color: #ff594d;
+  position: absolute;
+}
+.time_num.data-v-2d7d51dc {
+  width: 100%;
+  background: none ;
+  color: #000000;
+  line-height: 1.5;
+  font-size: 26rpx;
+  padding: 30rpx;
+}
+.time_num .time_text.data-v-2d7d51dc {
+  color: #9F9F9F;
+}
+.list.data-v-2d7d51dc {
+  background: #FFFFFF;
+  padding: 20rpx 30rpx;
+  position: relative;
+  margin-bottom: 14rpx;
+  margin-top: 20rpx;
+}
+.list .list_top.data-v-2d7d51dc {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.list .list_top .img_tou.data-v-2d7d51dc {
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 20rpx;
+  border-radius: 50%;
+}
+.list .list_top .list_fan.data-v-2d7d51dc {
+  float: right;
+}
+.list .list_top .list_fan text.data-v-2d7d51dc {
+  color: red;
+}
+.list .cald_list.data-v-2d7d51dc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-top: 20rpx;
+  border-top: 2rpx solid #F5F5F5;
+  border-bottom: 2rpx solid #F5F5F5;
+  padding: 20rpx 0px;
+  margin-bottom: 22rpx;
+}
+.list .cald_list .img.data-v-2d7d51dc {
+  width: 110rpx;
+  height: 110rpx;
+}
+.list .cald_list .order.data-v-2d7d51dc {
+  width: 100%;
+  color: #999999;
+  margin-bottom: 10rpx;
+}
+.list .cald_list .count.data-v-2d7d51dc {
+  font-size: 26rpx;
+  padding: 10rpx 20rpx;
+  color: #000000;
+  line-height: 1.6;
+}
+.list .list_dan.data-v-2d7d51dc {
+  color: #959595;
+  margin-top: 10rpx;
+}
+.list .list_dan text.data-v-2d7d51dc {
+  color: #636363;
+}
+.empty.data-v-2d7d51dc {
+  text-align: center;
+  font-size: 36rpx;
+}
+.empty .img.data-v-2d7d51dc {
+  width: 100%;
+  margin-top: 240rpx;
+}
+

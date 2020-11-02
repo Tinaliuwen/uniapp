@@ -1,0 +1,850 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/main/index",
+			"style": {
+				// "navigationBarTitleText": "5G拼团首页"
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": {
+						// "titleSize": "18px",
+						"autoBackButton": false
+					}
+				}
+			}
+		}, {
+			"path": "pages/main/gift",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/gift/order",
+			"style": {
+				"navigationBarTitleText": "兑换记录"
+			}
+		},
+		// {
+		// 	"path": "pages/main/category",
+		// 	"style": {
+		// 		"navigationBarTitleText": "分类"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/main/upgrade",
+		// 	"style": {
+		// 		"navigationBarTitleText": "合作区"
+		// 	}
+		// }, 
+		{
+			"path": "pages/user/upgrade",
+			"style": {
+				"navigationBarTitleText": "合作区"
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "服务协议"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/login/bind",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/setting/amend",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		},
+		{
+			"path": "pages/main/introduce",
+			"style": {
+				"navigationBarTitleText": "企业介绍"
+			}
+		},
+		{
+			"path": "pages/main/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/main/replen",
+			"style": {
+				"navigationBarTitleText": "产品区"
+			}
+		},
+		{
+			"path": "pages/main/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/shopComment/shopComment",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/user/balance",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},
+		{
+			"path": "pages/balance/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		}, {
+			"path": "pages/index/education",
+			"style": {
+				"navigationBarTitleText": "素材库"
+			}
+		},
+		{
+			"path": "pages/index/notice",
+			"style": {
+				"navigationBarTitleText": "通知详情"
+			}
+		}, {
+			"path": "pages/index/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/index/message",
+			"style": {
+				"navigationBarTitleText": "素材详情"
+			}
+		}, {
+			"path": "pages/index/master",
+			"style": {
+				"navigationBarTitleText": "大咖详情"
+			}
+		}, {
+			"path": "pages/index/class",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		}, {
+			"path": "pages/balance/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/balance/consumerDetails",
+			"style": {
+				"navigationBarTitleText": "消费明细"
+			}
+		},
+		{
+			"path": "pages/balance/withdrawDetails",
+			"style": {
+				"navigationBarTitleText": "提现明细"
+			}
+		},
+		{
+			"path": "pages/balance/rechargeDetails",
+			"style": {
+				"navigationBarTitleText": "充值明细"
+			}
+		},
+		{
+			"path": "pages/balance/transfer",
+			"style": {
+				"navigationBarTitleText": "米粒转入"
+			}
+		},
+		{
+			"path": "pages/balance/addBank",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		},
+		{
+			"path": "pages/balance/addAlipay",
+			"style": {
+				"navigationBarTitleText": "添加支付宝"
+			}
+		},
+		{
+			"path": "pages/user/mygrains",
+			"style": {
+				"navigationBarTitleText": "我的米粒"
+			}
+		},
+		{
+			"path": "pages/user/integral",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},
+		{
+			"path": "pages/user/operation",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},
+		{
+			"path": "pages/user/accredit",
+			"style": {
+				"navigationBarTitleText": "授权书"
+			}
+		},
+		{
+			"path": "pages/card/jobNumber",
+			"style": {
+				"navigationBarTitleText": "我的工号"
+			}
+		},
+		{
+			"path": "pages/points/record",
+			"style": {
+				"navigationBarTitleText": "兑换记录"
+			}
+		},
+		{
+			"path": "pages/card/phoneNumber",
+			"style": {
+				"navigationBarTitleText": "我的手机号"
+			}
+		},
+		{
+			"path": "pages/card/appointment",
+			"style": {
+				"navigationBarTitleText": "预约开卡"
+			}
+		},
+		{
+			"path": "pages/card/card",
+			"style": {
+				"navigationBarTitleText": "联通5G"
+			}
+		},
+		{
+			"path": "pages/card/applyNumber",
+			"style": {
+				"navigationBarTitleText": "申请工号"
+			}
+		},
+		{
+			"path": "pages/card/applyCard",
+			"style": {
+				"navigationBarTitleText": "预约开卡"
+			}
+		},
+		{
+			"path": "pages/service/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/service/qrcode",
+			"style": {
+				"navigationBarTitleText": "我的推广海报"
+			}
+		},
+		{
+			"path": "pages/service/declaration",
+			"style": {
+				"navigationBarTitleText": "报单中心"
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/service/introduce",
+			"style": {
+				"navigationBarTitleText": "企业介绍"
+			}
+		},
+		{
+			"path": "pages/service/certificate",
+			"style": {
+				"navigationBarTitleText": "资质证照"
+			}
+		},
+		{
+			"path": "pages/service/material",
+			"style": {
+				"navigationBarTitleText": "素材库"
+			}
+		},
+		{
+			"path": "pages/service/upgrade",
+			"style": {
+				"navigationBarTitleText": "升级"
+			}
+		},
+		// 我的订单
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/order/details",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/addAddress",
+			"style": {
+				"navigationBarTitleText": "新增收货地址"
+			}
+		},
+		{
+			"path": "pages/order/address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "新增  ",
+							"fontSize": "14px",
+							"color": "#666"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/sale",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},
+		{
+			"path": "pages/order/review",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},
+		{
+			"path": "pages/order/receive",
+			"style": {
+				"navigationBarTitleText": "待收货"
+			}
+		}, {
+			"path": "pages/order/comment",
+			"style": {
+				"navigationBarTitleText": "待评价"
+			}
+		},
+		{
+			"path": "pages/order/pay",
+			"style": {
+				"navigationBarTitleText": "待付款"
+			}
+		},
+		{
+			"path": "pages/order/delivery",
+			"style": {
+				"navigationBarTitleText": "待发货"
+			}
+		},
+		//商家入驻
+		{
+			"path": "pages/business/business",
+			"style": {
+				"navigationBarTitleText": "商家入驻"
+			}
+		},
+		{
+			"path": "pages/business/result",
+			"style": {
+				"navigationBarTitleText": "商家入驻"
+			}
+		},
+		{
+			"path": "pages/business/agreement",
+			"style": {
+				"navigationBarTitleText": "入驻协议"
+			}
+		},
+		//设置
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "账户设置"
+			}
+		},
+		{
+			"path": "pages/setting/update",
+			"style": {
+				"navigationBarTitleText": "修改账户内容"
+			}
+		},
+		// 购物车
+		{
+			"path": "pages/shoppingCart/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/afterService/afterService",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		}, {
+			"path": "pages/afterService/returnType",
+			"style": {
+				"navigationBarTitleText": "退货类型"
+			}
+		},
+		{
+			"path": "pages/afterService/logistics",
+			"style": {
+				"navigationBarTitleText": "查看物流"
+			}
+		},
+		{
+			"path": "pages/confirm_order/confirm_order",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		// 我的余额
+		{
+			"path": "pages/points/myPoints",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		}, {
+			"path": "pages/points/qualityRice",
+			"style": {
+				"navigationBarTitleText": "优质米"
+			}
+		}, {
+			"path": "pages/points/food",
+			"style": {
+				"navigationBarTitleText": "粗粮"
+			}
+		}, {
+			"path": "pages/points/oil",
+			"style": {
+				"navigationBarTitleText": "粮油"
+			}
+		}, {
+			"path": "pages/points/other",
+			"style": {
+				"navigationBarTitleText": "其他"
+			}
+		}, {
+			"path": "pages/points/rule",
+			"style": {
+				"navigationBarTitleText": "余额规则"
+			}
+		}, {
+			"path": "pages/points/pointsAll",
+			"style": {
+				"navigationBarTitleText": "余额明细"
+			}
+		}, {
+			"path": "pages/points/receive",
+			"style": {
+				"navigationBarTitleText": "待收货"
+			}
+		}, {
+			"path": "pages/points/comment",
+			"style": {
+				"navigationBarTitleText": "待评价"
+			}
+		}, {
+			"path": "pages/points/pay",
+			"style": {
+				"navigationBarTitleText": "待付款"
+			}
+		}, {
+			"path": "pages/points/delivery",
+			"style": {
+				"navigationBarTitleText": "待发货"
+			}
+		}, {
+			"path": "pages/myRice/transferBalance",
+			"style": {
+				"navigationBarTitleText": "我的米粒"
+			}
+		}, {
+			"path": "pages/myRice/transferDetail",
+			"style": {
+				"navigationBarTitleText": "转出明细"
+			}
+		}, {
+			"path": "pages/service/myTeam",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		}, {
+			"path": "pages/service/teamTwo",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		}, {
+			"path": "pages/service/teamThree",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+			}
+		},
+		{
+			"path": "pages/thousand/thousand",
+			"style": {
+				"navigationBarTitleText": "千元团专区"
+			}
+		},
+		{
+			"path": "pages/hundred/hundred",
+			"style": {
+				"navigationBarTitleText": "百元团专区"
+			}
+		},
+		{
+			"path": "pages/hundred/commodity",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/hundred/person",
+			"style": {
+				"navigationBarTitleText": "参团人员"
+			}
+		},
+		{
+			"path": "pages/service/footprint",
+			"style": {
+				"navigationBarTitleText": "我的足迹",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "编辑",
+							// "fontSrc": "/static/uni.ttf",
+							"fontSize": "14px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/service/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "编辑",
+							// "fontSrc": "/static/uni.ttf",
+							"fontSize": "14px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		},
+
+		//拼团订单
+		{
+			"path": "pages/groupOrder/groupOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "我的团  ",
+							"fontSize": "14px",
+							"color": "#333"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/groupOrder/delivery",
+			"style": {
+				"navigationBarTitleText": "待发货"
+			}
+		}, {
+			"path": "pages/groupOrder/receive",
+			"style": {
+				"navigationBarTitleText": "待收货"
+			}
+		},
+		{
+			"path": "pages/groupOrder/pay",
+			"style": {
+				"navigationBarTitleText": "待付款"
+			}
+		},
+		{
+			"path": "pages/groupOrder/group",
+			"style": {
+				"navigationBarTitleText": "拼团中"
+			}
+		},
+		{
+			"path": "pages/groupOrder/comment",
+			"style": {
+				"navigationBarTitleText": "待评价"
+			}
+		},
+		{
+			"path": "pages/points/commodity",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/category/commodity",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, {
+			"path": "pages/createOrder/createOrder",
+			"style": {
+				"navigationBarTitleText": "创建订单"
+			}
+		}, {
+			"path": "pages/createOrder/orderDetail",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		}, {
+			"path": "pages/createOrder/pay",
+			"style": {
+				"navigationBarTitleText": "付款成功"
+			}
+		}, {
+			"path": "pages/global/globalShopping",
+			"style": {
+				"navigationBarTitleText": "全球购"
+			}
+		}, {
+			"path": "pages/order/test",
+			"style": {}
+		}, {
+			"path": "pages/groupShopping/groupShopping",
+			"style": {
+				"navigationBarTitleText": "拼团购"
+			}
+		},
+		{
+			"path": "pages/category/list",
+			"style": {
+				"navigationBarTitleText": "推荐分类"
+			}
+		}, {
+			"path": "pages/edit/editPassword",
+			"style": {
+				"navigationBarTitleText": "修改登录密码"
+			}
+		}, {
+			"path": "pages/edit/editPhone",
+			"style": {
+				"navigationBarTitleText": "修改手机号码"
+			}
+		}, {
+			"path": "pages/groupOrder/myGroup",
+			"style": {
+				"navigationBarTitleText": "我的团"
+			}
+		}, {
+			"path": "pages/hundred/test",
+			"style": {}
+		}, {
+			"path": "pages/hundred/test1",
+			"style": {}
+		}, {
+			"path": "pages/order/editAddress",
+			"style": {
+				"navigationBarTitleText": "修改收货地址"
+			}
+		}, {
+			"path": "pages/category/createOrder",
+			"style": {
+				"navigationBarTitleText": "创建订单"
+			}
+		}, {
+			"path": "pages/order/orderDetail",
+			"style": {}
+		}, {
+			"path": "pages/category/orderDetail",
+			"style": {}
+		}, {
+			"path": "pages/category/shopComment",
+			"style": {}
+		}, {
+			"path": "pages/newPeople/newpeople",
+			"style": {
+				"navigationBarTitleText": "新人活动区"
+			}
+		}, {
+			"path": "pages/newPeople/auction",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/newPeople/leakDetection",
+			"style": {
+				"navigationBarTitleText": "名家展示"
+			}
+		}
+	    ,{
+            "path" : "pages/main/distribution",
+            "style" : {
+				"navigationBarTitleText":"收款信息"
+			}
+        },{
+		    "path" : "pages/service/mytean",
+		    "style" : {
+				"navigationBarTitleText":"我的推广团队"
+				}
+		}
+        ,{
+            "path" : "pages/setting/set_pass",
+            "style" : {
+				"navigationBarTitleText":"修改密码"
+			}
+        },
+		{
+		    "path" : "pages/setting/nickname",
+		    "style" : {
+				"navigationBarTitleText":"修改昵称"
+			}
+		}
+        ,{
+            "path" : "pages/category/newpleity",
+            "style" : {
+				"navigationBarTitleText": "新人商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/newPeople/neworder",
+            "style" : {
+				"navigationBarTitleText": "新人订单列表"
+			}
+        }
+        ,{
+            "path" : "pages/newPeople/newdetails",
+            "style" : {
+				"navigationBarTitleText": "新人订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/main/appeal",
+            "style" : {
+				"navigationBarTitleText": "我的申诉",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "申诉 ",
+							"fontSize": "14px",
+							"color": "#666"
+						}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/main/myappeal",
+            "style" : {
+				"navigationBarTitleText": "我的申诉"
+			}
+        }
+        ,{
+            "path" : "pages/order/entrust",
+            "style" : {
+				"navigationBarTitleText": "推广人订单"
+			}
+        }
+        ,{
+            "path" : "pages/order/ordertwo",
+            "style" : {
+				"navigationBarTitleText": "我的订单"
+			}
+        }
+        ,{
+            "path" : "pages/category/agreeorder",
+            "style" : {
+				"navigationBarTitleText": "购买协议"
+			}
+        }
+        ,{
+            "path" : "pages/order/agreewei",
+            "style" : {
+				"navigationBarTitleText": "委托协议"
+			}
+        }
+        ,{
+            "path" : "pages/user/user_ent",
+            "style" : {
+				"navigationBarTitleText": "余额详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#EDEDED"
+	},
+	"tabBar": {
+		"color":"#000000",
+		"selectedColor":"#ff3439",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/main/index",
+			"iconPath": "/static/tabbar/index.png",
+			"selectedIconPath": "/static/tabbar/indexHL.png"
+		}, {
+			"text": "推广",
+			"pagePath": "pages/service/mytean",
+			"iconPath": "/static/tabbar/gift.png",
+			"selectedIconPath": "/static/tabbar/giftHL.png"
+		},
+		{
+			"text": "我的",
+			"pagePath": "pages/main/user",
+			"iconPath": "static/tabbar/user.png",
+			"selectedIconPath": "static/tabbar/userHL.png"
+		}
+		]
+
+	}
+}

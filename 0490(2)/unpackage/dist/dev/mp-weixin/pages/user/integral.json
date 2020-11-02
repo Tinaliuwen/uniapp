@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的余额",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uicons": "/components/uni-icons/uni-icons"
+  }
+}

@@ -1,0 +1,9 @@
+
+.image{
+	margin: 100rpx 20% 30rpx;
+	width: 60%;
+}
+.content{
+	padding: 30rpx;
+}
+

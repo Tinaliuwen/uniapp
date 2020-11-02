@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "预约开卡",
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

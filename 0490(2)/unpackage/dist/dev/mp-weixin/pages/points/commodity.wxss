@@ -1,0 +1,459 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper-box.data-v-6ddc4cfa {
+  height: 500px;
+}
+.commodity.data-v-6ddc4cfa {
+  position: relative;
+}
+.commodity .swiper-section.data-v-6ddc4cfa {
+  width: 100vw;
+  height: 754rpx;
+}
+.commodity .swiper-section swiper.data-v-6ddc4cfa {
+  height: 754rpx;
+}
+.commodity .swiper-section .swiper-item.data-v-6ddc4cfa {
+  width: 100vw;
+  height: 754rpx;
+}
+.commodity .swiper-section .swiper-item image.data-v-6ddc4cfa {
+  width: 100%;
+  height: 100%;
+}
+.commodity .commodity-info.data-v-6ddc4cfa {
+  position: absolute;
+  top: 678rpx;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  border-radius: 30rpx 30rpx 0rpx 0rpx;
+  background-color: #F4F4F4;
+}
+.commodity .commodity-info .info-top.data-v-6ddc4cfa {
+  width: 100%;
+  height: 374rpx;
+  background-color: #FFFFFF;
+  border-radius: 30rpx 30rpx 0px 0px;
+}
+.commodity .commodity-info .info-top .title-box.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  padding: 20rpx 20rpx;
+}
+.commodity .commodity-info .info-top .title-box .title.data-v-6ddc4cfa {
+  color: #000000;
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.commodity .commodity-info .info-top .title-box image.data-v-6ddc4cfa {
+  width: 96rpx;
+  height: 96rpx;
+  margin-left: 104rpx;
+}
+.commodity .commodity-info .info-top .subhead.data-v-6ddc4cfa {
+  width: 530rpx;
+  color: #999999;
+  font-size: 28rpx;
+  line-height: 1.2;
+  padding: 0 20rpx;
+}
+.commodity .commodity-info .info-top .price.data-v-6ddc4cfa {
+  padding: 0 20rpx;
+}
+.commodity .commodity-info .info-top .price > text.data-v-6ddc4cfa:nth-child(1) {
+  color: #F4821B;
+  font-size: 42rpx;
+}
+.commodity .commodity-info .info-top .price > text.data-v-6ddc4cfa:nth-child(2) {
+  color: #F4821B;
+  font-size: 24rpx;
+  margin: 0 26rpx 0 10rpx;
+}
+.commodity .commodity-info .info-top .price > text.data-v-6ddc4cfa:nth-child(3) {
+  color: #CCCCCC;
+  font-size: 28rpx;
+  vertical-align: center;
+  text-decoration: line-through;
+}
+.commodity .commodity-info .info-top .count.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  color: #666666;
+  margin-top: 10rpx;
+}
+.commodity .commodity-info .info-intro.data-v-6ddc4cfa {
+  margin-top: 20rpx;
+  background-color: #ffffff;
+  padding: 20rpx 0;
+}
+.commodity .commodity-info .info-intro .type.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 20rpx;
+}
+.commodity .commodity-info .info-intro .type > view text.data-v-6ddc4cfa:nth-child(1) {
+  font-size: 28rpx;
+  color: #666666;
+  margin-right: 40rpx;
+}
+.commodity .commodity-info .info-intro .type > view text.data-v-6ddc4cfa:nth-child(2) {
+  font-size: 28rpx;
+  color: #333333;
+  margin-right: 40rpx;
+}
+.commodity .commodity-info .info-intro .type > view:nth-child(2) image.data-v-6ddc4cfa {
+  width: 48rpx;
+  height: 48rpx;
+}
+.commodity .commodity-info .info-intro > view.data-v-6ddc4cfa:nth-child(2) {
+  padding: 40rpx 20rpx;
+}
+.commodity .commodity-info .info-detail-evaluate.data-v-6ddc4cfa {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 20rpx;
+  margin-bottom: 100rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .navbar.data-v-6ddc4cfa {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 40px;
+  padding: 0 5px;
+}
+.commodity .commodity-info .info-detail-evaluate .navbar .nav-item.data-v-6ddc4cfa {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+  font-size: 15px;
+  color: #303133;
+  position: relative;
+}
+.commodity .commodity-info .info-detail-evaluate .navbar .nav-item.current.data-v-6ddc4cfa {
+  color: #ff594d;
+}
+.commodity .commodity-info .info-detail-evaluate .navbar .nav-item.current.data-v-6ddc4cfa:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60px;
+  height: 0;
+  /* border-bottom: 2px solid #fa436a; */
+  border-bottom: 6rpx solid #ff594d;
+  border-radius: 4rpx 4rpx 0rpx 0rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate.data-v-6ddc4cfa {
+  padding: 20rpx;
+  margin-bottom: 100rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .title.data-v-6ddc4cfa {
+  color: #333333;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .photo.data-v-6ddc4cfa {
+  margin-right: 20rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .photo image.data-v-6ddc4cfa {
+  width: 74rpx;
+  height: 74rpx;
+  margin-top: 13rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info.data-v-6ddc4cfa {
+  width: 100%;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .user-name.data-v-6ddc4cfa {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .user-name .name.data-v-6ddc4cfa {
+  color: #333333;
+  font-size: 32rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .user-name .time.data-v-6ddc4cfa {
+  color: #666666;
+  font-size: 28rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .content.data-v-6ddc4cfa {
+  color: #666666;
+  font-size: 28rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .img.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  margin-top: 30rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .img image.data-v-6ddc4cfa {
+  width: 192rpx;
+  height: 192rpx;
+}
+.commodity .commodity-info .info-detail-evaluate .evaluate .user-info .info .merchant.data-v-6ddc4cfa {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background: #f0eeef;
+  color: #666666;
+  font-size: 24rpx;
+  margin-top: 30rpx;
+}
+.commodity .commodity-info .btn.data-v-6ddc4cfa {
+  width: 100%;
+  height: 100rpx;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border: 1rpx solid rgba(204, 204, 204, 0.77);
+  box-sizing: border-box;
+}
+.commodity .commodity-info .btn .conversion.data-v-6ddc4cfa {
+  width: 480rpx;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background-color: #FF9933;
+  font-size: 36rpx;
+  color: #ffffff;
+}
+.commodity .commodity-info .btn .to.data-v-6ddc4cfa {
+  width: calc(750rpx - 500rpx);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.commodity .commodity-info .btn .to .home.data-v-6ddc4cfa {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.commodity .commodity-info .btn .to .home > view.data-v-6ddc4cfa:nth-child(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.commodity .commodity-info .btn .to .home > view:nth-child(1) image.data-v-6ddc4cfa {
+  width: 58rpx;
+  height: 58rpx;
+}
+.commodity .commodity-info .btn .to .home > view.data-v-6ddc4cfa:nth-child(2) {
+  color: #666666;
+  font-size: 24rpx;
+  text-align: center;
+}
+.commodity .ele.data-v-6ddc4cfa {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.commodity .ele .box.data-v-6ddc4cfa {
+  width: 100vw;
+  height: 855rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  border-radius: 30rpx 30rpx 0px 0px;
+}
+.commodity .ele .box .photo image.data-v-6ddc4cfa {
+  width: 286rpx;
+  height: 296rpx;
+  position: absolute;
+  top: -64rpx;
+  left: 20rpx;
+}
+.commodity .ele .box .photo .price.data-v-6ddc4cfa {
+  position: absolute;
+  left: 334rpx;
+  top: 112rpx;
+}
+.commodity .ele .box .photo .price > view.data-v-6ddc4cfa:nth-child(1) {
+  color: #ff594d;
+  font-size: 48rpx;
+}
+.commodity .ele .box .photo .price > view.data-v-6ddc4cfa:nth-child(2) {
+  color: #333333;
+  font-size: 24rpx;
+}
+.commodity .ele .box .type.data-v-6ddc4cfa {
+  padding: 274rpx 20rpx 15rpx 20rpx;
+}
+.commodity .ele .box .type .name.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.commodity .ele .box .type .name .active.data-v-6ddc4cfa {
+  border: 1rpx solid #e99040;
+  color: #ff594d;
+}
+.commodity .ele .box .type .name > view.data-v-6ddc4cfa {
+  height: 68rpx;
+  line-height: 68rpx;
+  padding: 0 30rpx;
+  border: 1rpx solid #cccccc;
+  border-radius: 35rpx;
+  font-size: 24rpx;
+  margin: 15rpx 0;
+}
+.commodity .ele .box .count.data-v-6ddc4cfa {
+  padding: 50rpx 20rpx 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.commodity .ele .box .count .num.data-v-6ddc4cfa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.commodity .ele .box .count .num > view.data-v-6ddc4cfa {
+  width: 82rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  background: #ececec;
+  border-radius: 20rpx;
+  margin: 0 10rpx;
+}
+.commodity .ele .box .btn.data-v-6ddc4cfa {
+  width: 700rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background: -webkit-linear-gradient(right, #f22c04 0%, #ea8d3f 100%);
+  background: linear-gradient(-90deg, #f22c04 0%, #ea8d3f 100%);
+  border-radius: 40rpx;
+  color: #ffffff;
+  font-size: 36rpx;
+  position: absolute;
+  bottom: 38rpx;
+  left: 25rpx;
+}
+.data-v-6ddc4cfa uni-swiper .uni-swiper-dots-horizontal {
+  bottom: 50px;
+}
+

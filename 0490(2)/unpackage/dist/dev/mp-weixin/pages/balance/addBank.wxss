@@ -1,0 +1,46 @@
+
+.card.data-v-45c5bde1{
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.card-left.data-v-45c5bde1{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 100rpx;
+	border-bottom: 1px solid #F4F4F4;
+	color: #666666;
+	padding-left: 18rpx;
+}
+.submit.data-v-45c5bde1{
+	background:-webkit-linear-gradient(left,rgba(233,144,64,1),rgba(255,123,76,1));
+	background:linear-gradient(90deg,rgba(233,144,64,1),rgba(255,123,76,1));
+	border-radius:10rpx;
+	color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 86rpx 32rpx 0 28rpx;
+	height: 100rpx;
+	font-size: 36rpx;
+	font-weight: bold;
+}
+

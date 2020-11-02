@@ -1,0 +1,118 @@
+
+.balance.data-v-6aebc980 {
+	background-color: #fff;
+	border-radius: 20rpx;
+	margin: 30rpx 20rpx;
+}
+.rice.data-v-6aebc980 {
+	padding: 30rpx;
+	border-bottom: 1px solid #f4f4f4;
+}
+.text.data-v-6aebc980 {
+	font-size: 26rpx;
+	font-weight: bold;
+	margin-right: 16rpx;
+}
+.rice1.data-v-6aebc980 {
+	padding: 30rpx;
+}
+.text1.data-v-6aebc980 {
+	font-size: 28rpx;
+	font-weight: bold;
+}
+.price.data-v-6aebc980 {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #ff594d;
+}
+.img.data-v-6aebc980 {
+	width: 68rpx;
+	height: 16rpx;
+}
+.top.data-v-6aebc980 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	height: 160rpx;
+}
+.top-text.data-v-6aebc980 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.rice-text.data-v-6aebc980 {
+	color: #333;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.txt.data-v-6aebc980 {
+	font-size: 24rpx;
+	color: #666;
+}
+.input.data-v-6aebc980 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0 30rpx;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 20rpx;
+}
+.input-value.data-v-6aebc980 {
+	font-size: 28rpx;
+	color: #999;
+}
+.all.data-v-6aebc980 {
+	color: #ff594d;
+}
+.all-text.data-v-6aebc980 {
+	margin-left: 8rpx;
+}
+.transfer.data-v-6aebc980 {
+	color: #fff;
+	background: #ff594d;
+	border-radius: 10rpx;
+	margin: 0 46rpx;
+	height: 100rpx;
+	width: 618rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-size: 36rpx;
+	margin: 96rpx 46rpx 30rpx 46rpx;
+}
+.tips.data-v-6aebc980 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-size: 24rpx;
+	color: #999;
+	padding-bottom: 115rpx;
+}
+

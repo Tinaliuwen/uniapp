@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "拼团购",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uicons": "/components/uni-icons/uni-icons",
+    "u-lodemore": "/components/uni-load-more/uni-load-more"
+  }
+}

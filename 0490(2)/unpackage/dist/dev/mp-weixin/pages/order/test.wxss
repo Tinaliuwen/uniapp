@@ -1,0 +1,111 @@
+.mask.data-v-38cd166c {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  z-index: 99;
+}
+.mask .mask_top.data-v-38cd166c {
+  opacity: 0.53;
+  background: #000000;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.mask .mask_content.data-v-38cd166c {
+  height: 760rpx;
+  margin: 0 60rpx 300rpx 60rpx;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #ffffff;
+  border-radius: 12rpx;
+  padding-top: 42rpx;
+}
+.mask .mask_content .title.data-v-38cd166c {
+  height: 105rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.mask .mask_content .title > text.data-v-38cd166c {
+  height: 34rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+  line-height: 34rpx;
+}
+.mask .mask_content .title > image.data-v-38cd166c {
+  height: 58rpx;
+  width: 58rpx;
+}
+.mask .options.data-v-38cd166c {
+  margin-top: 10rpx;
+}
+.mask .options .list.data-v-38cd166c {
+  height: 100rpx;
+  width: 100%;
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 32rpx;
+}
+.mask .options .list_end.data-v-38cd166c {
+  border-bottom: 0;
+}
+.mask .btn.data-v-38cd166c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  text-align: center;
+  line-height: 100rpx;
+  margin: 25rpx auto;
+  color: #333;
+  font-size: 32rpx;
+}
+.mask .btn .confirm.data-v-38cd166c {
+  width: 50%;
+}
+.mask .btn .confirm-btn.data-v-38cd166c {
+  color: #000;
+  font-weight: bold;
+}
+

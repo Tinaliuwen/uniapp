@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的申诉",
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card"
+  }
+}

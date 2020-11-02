@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "新人商品详情",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "uni-countdown": "/components/uni-count",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

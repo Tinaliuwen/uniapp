@@ -1,0 +1,1 @@
+<view class="shopping-cart data-v-6ca9e3e2"><view class="consume-img data-v-6ca9e3e2"><image class="img data-v-6ca9e3e2" src="../../static/order/pay-success.png" mode></image></view><view class="shopping data-v-6ca9e3e2"><view data-event-opts="{{[['tap',[['shopping',['$event']]]]]}}" class="shopping-text data-v-6ca9e3e2" bindtap="__e">继续购物</view></view></view>

@@ -1,0 +1,48 @@
+
+.uni-navbar {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	position: relative;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	overflow: hidden;
+	z-index: 800;
+}
+.padd{
+	padding-top: 25px;
+}
+.tab-bar {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	flex-direction: column;
+	flex-direction: row;
+
+	white-space: nowrap;
+}
+.tab-bar ::-webkit-scrollbar {
+    display: none;  
+    width: 0 !important;  
+    height: 0 !important;  
+    -webkit-appearance: none;  
+    background: transparent;
+}
+.uni-tab-item {
+
+	display: inline-block;
+
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	text-align: center;
+}
+.uni-tab-item-title {
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+
+	white-space: nowrap;
+}
+

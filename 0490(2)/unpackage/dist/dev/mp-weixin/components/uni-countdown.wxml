@@ -1,0 +1,1 @@
+<view class="uni-countdown" style="{{'color:'+(fontColor)+';'}}"><block wx:if="{{type>3}}"><block>{{d+":"}}</block></block><block wx:if="{{type>2}}"><block>{{h+":"}}</block></block><block wx:if="{{type>1}}"><block>{{m+":"}}</block></block><block wx:if="{{type>0}}"><block>{{s}}</block></block><block wx:if="{{type==0}}"><block></block></block></view>
